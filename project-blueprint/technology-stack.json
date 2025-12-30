@@ -1,0 +1,86 @@
+{
+  "project_type": "restaurant_website_app_like",
+  "build_from_scratch": true,
+  "no_external_research": true,
+  "source_of_truth": "provided_project_files_only",
+
+  "frontend": {
+    "framework": "Next.js",
+    "router": "App Router",
+    "rendering": ["SSR", "SSG"],
+    "language": "TypeScript",
+    "styling": {
+      "method": "CSS Modules + modern CSS",
+      "supports": ["CSS Grid", "Flexbox", "Custom Properties"],
+      "no_inline_styles": true
+    },
+    "seo_and_data": {
+      "schema_markup_required": true,
+      "types": ["Restaurant", "Menu", "Product"],
+      "format": "JSON-LD"
+    }
+  },
+
+  "state_management": {
+    "library": "Zustand",
+    "rationale": "lightweight_no_boilerplate",
+    "scope": ["cart_state", "user_preferences", "ui_toggles"]
+  },
+
+  "development_tools": {
+    "component_sandbox": "Storybook",
+    "rationale": "essential_for_custom_ui_development_without_frameworks"
+  },
+
+  "progressive_web_app": {
+    "enabled": true,
+    "app_shell": true,
+    "service_worker": true,
+    "offline_cache": {
+      "enabled": true,
+      "strategy": "cache_first_for_assets_network_first_for_api"
+    },
+    "install_prompt": true,
+    "ios_specifics": {
+      "custom_install_instructions_component": true,
+      "splash_screens_generated": true
+    },
+    "standalone_mode": true,
+    "theme_color_from_brand": true
+  },
+
+  "performance": {
+    "target_lighthouse_score": 95,
+    "lazy_loading": true,
+    "image_strategy": {
+      "optimization": true,
+      "placeholder": "blur-up",
+      "format": ["avif", "webp"]
+    },
+    "code_splitting": true,
+    "no_unused_dependencies": true
+  },
+
+  "animations": {
+    "library": "Framer Motion",
+    "philosophy": "subtle_premium",
+    "avoid_over_animation": true
+  },
+
+  "accessibility": {
+    "wcag_level": "AA",
+    "keyboard_navigation": true,
+    "aria_labels": true
+  },
+
+  "browser_support": {
+    "modern_browsers_only": true,
+    "graceful_fallbacks": true
+  },
+
+  "restrictions": {
+    "no_ui_frameworks": ["Bootstrap", "Material UI", "Tailwind UI (Components)"],
+    "no_color_guessing": true,
+    "no_feature_addition_without_spec": true
+  }
+}

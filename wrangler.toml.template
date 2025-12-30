@@ -1,0 +1,21 @@
+# Wrangler config template for Cloudflare Pages / Workers
+# Copy this file to `wrangler.toml` and fill the placeholders.
+
+name = "premium-restaurant"
+project = "premium-restaurant"
+account_id = "YOUR_ACCOUNT_ID_HERE"
+compatibility_date = "2025-12-31"
+
+# For Pages deployment, you can use `wrangler pages` commands.
+# If you intend to use Workers for SSR, configure the `type` and build accordingly.
+
+[build]
+  command = "npm run build"
+  upload = { format = "service-worker" }
+
+# Uncomment and set if using workers_dev
+# workers_dev = true
+
+# Example environment for production
+[env.production]
+  # put production-specific settings here

@@ -1,0 +1,4 @@
+- Project purpose: UNSPECIFIED
+- User goals: UNSPECIFIED
+- Mobile-first intent: UNSPECIFIED
+- Level of luxury and tone: UNSPECIFIED

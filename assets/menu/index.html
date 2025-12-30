@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>كهرمانة بغداد | مطعم عراقي أصيل في البحرين</title>
+  <meta name="description" content="استمتع بأصالة الكرم العراقي في مطعم كهرمانة بغداد. نقدم المسكوف التقليدي، الكباب، القوزي والأطباق العراقية الأصيلة في الرفاع والمحرق بالبحرين منذ 2025." />
+  <meta name="keywords" content="مطعم عراقي البحرين, مسكوف البحرين, أكل عراقي أصيل, مطعم الرفاع, مطعم المحرق, كباب, قوزي, مطبخ عراقي" />
+  <meta name="author" content="كهرمانة بغداد" />
+  
+  <!-- Canonical & Open Graph -->
+  <link rel="canonical" href="https://kahramanatbaghdad.com" />
+  <meta property="og:type" content="restaurant" />
+  <meta property="og:url" content="https://kahramanatbaghdad.com" />
+  <meta property="og:title" content="كهرمانة بغداد | مطعم عراقي أصيل" />
+  <meta property="og:description" content="إرث بغداد مع دفء الضيافة البحرينية. أطباق عراقية تقليدية بلمسة عصرية." />
+  <meta property="og:image" content="https://kahramanatbaghdad.com/assets/brand/og-image.webp" />
+  <meta property="og:locale" content="ar_BH" />
+  <meta property="og:locale:alternate" content="en_US" />
+  
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:url" content="https://kahramanatbaghdad.com" />
+  <meta name="twitter:title" content="كهرمانة بغداد | مطعم عراقي" />
+  <meta name="twitter:description" content="كرم عراقي أصيل مع دفء الضيافة البحرينية" />
+  <meta name="twitter:image" content="https://kahramanatbaghdad.com/assets/brand/twitter-image.webp" />
+  
+  <!-- PWA -->
+  <link rel="manifest" href="./manifest.json" />
+  <meta name="theme-color" content="#050505" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <link rel="apple-touch-icon" sizes="192x192" href="./assets/icons/icon-192.png" />
+  <link rel="apple-touch-icon" sizes="512x512" href="./assets/icons/icon-512.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/icons/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/icons/favicon-16x16.png" />
+  
+  <!-- Preconnect & DNS Prefetch -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="dns-prefetch" href="https://wa.me" />
+  <link rel="dns-prefetch" href="https://maps.app.goo.gl" />
+  <link rel="dns-prefetch" href="https://www.google.com" />
+  <link rel="preload" as="image" href="./assets/hero/hero-poster.webp" fetchpriority="high" />
+  
+  <!-- خط Cairo الأساسي للعربية مع تحسين الأداء -->
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&display=swap"
+    media="print"
+    onload="this.media='all'"
+  />
+  <noscript>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&display=swap" />
+  </noscript>
+  
+  <!-- Critical CSS -->
+  <style id="critical-css">
+    :root {
+      --bg: #050505;
+      --fg: #FFF;
+      --brand: #D4AF37;
+      --muted: #9CA3AF;
+    }
+    * { box-sizing: border-box; }
+    html, body { height: 100%; margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--fg);
+      font-family: 'Cairo', system-ui, sans-serif;
+      line-height: 1.6;
+    }
+    .hero {
+      min-height: 92vh;
+      min-height: 92dvh;
+      position: relative;
+      display: flex;
+      align-items: center;
+    }
+    .site-header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 50;
+      background: rgba(5, 5, 5, 0.55);
+      backdrop-filter: blur(12px);
+    }
+    .nav-icon {
+      width: 18px;
+      height: 18px;
+      margin-inline-end: 8px;
+      vertical-align: middle;
+      filter: invert(72%) sepia(61%) saturate(345%) hue-rotate(3deg) brightness(92%) contrast(89%);
+    }
+    .btn .nav-icon {
+      filter: none;
+      margin-inline-end: 10px;
+      width: 20px;
+      height: 20px;
+    }
+    .wa-ico-new {
+      width: 22px;
+      height: 22px;
+      filter: none;
+    }
+    .cart-fab-icon { margin-inline-end: 8px; }
+    .cart-wa-icon { filter: none; }
+  </style>
+  
+  <!-- Main Stylesheet (deferred) -->
+  <link rel="preload" as="style" href="./styles.css" onload="this.onload=null;this.rel='stylesheet'" />
+  <noscript><link rel="stylesheet" href="./styles.css" /></noscript>
+  
+  <!-- Schema.org Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "Kahramanat Baghdad",
+    "alternateName": "كهرمانة بغداد",
+    "description": "مطعم عراقي أصيل يقدم أطباق تقليدية بلمسة عصرية في البحرين",
+    "image": "https://kahramanatbaghdad.com/assets/brand/logo.webp",
+    "logo": "https://kahramanatbaghdad.com/assets/brand/logo.webp",
+    "url": "https://kahramanatbaghdad.com",
+    "telephone": "+973-17131413",
+    "priceRange": "$$",
+    "servesCuisine": ["Iraqi", "Middle Eastern"],
+    "acceptsReservations": "True",
+    "menu": "https://kahramanatbaghdad.com/#menu",
+    "paymentAccepted": "Cash, Card",
+    "currenciesAccepted": "BHD",
+    "address": [
+      {
+        "@type": "PostalAddress",
+        "streetAddress": "الحجيات",
+        "addressLocality": "الرفاع",
+        "addressRegion": "محافظة العاصمة",
+        "addressCountry": "BH"
+      },
+      {
+        "@type": "PostalAddress",
+        "streetAddress": "قلالي",
+        "addressLocality": "المحرق",
+        "addressRegion": "محافظة المحرق",
+        "addressCountry": "BH"
+      }
+    ],
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+      "opens": "11:00",
+      "closes": "23:00"
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "127",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "sameAs": [
+      "https://instagram.com/kahramanat_b"
+    ]
+  }
+  </script>
+</head>
+
+<body>
+  <!-- Skip Link -->
+  <a href="#main" class="skip-link" data-i18n="skip">انتقل إلى المحتوى</a>
+
+  <!-- Page Loader -->
+  <div class="page-loader" id="pageLoader" aria-hidden="true">
+    <div class="loader-spinner"></div>
+  </div>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <input type="checkbox" class="nav-toggle" id="navToggle" aria-label="فتح القائمة" />
+      <label for="navToggle" class="burger">
+        <span></span>
+        <span></span>
+      </label>
+
+      <nav class="nav nav-left" aria-label="Primary">
+        <a href="#story">
+          <img src="./assets/icons/story-icon.svg" alt="أيقونة قصتنا" class="nav-icon" aria-hidden="true" />
+          <span data-i18n="nav.story">قصتنا</span>
+        </a>
+        <a href="#owner">
+          <img src="./assets/icons/story-icon.svg" alt="أيقونة صاحب المطعم" class="nav-icon" aria-hidden="true" />
+          <span data-i18n="nav.owner">صاحب المطعم</span>
+        </a>
+        <a href="#menu">
+          <img src="./assets/icons/menu-icon.svg" alt="أيقونة المنيو" class="nav-icon" aria-hidden="true" />
+          <span data-i18n="nav.menu">المنيو</span>
+        </a>
+        <a href="#gallery">
+          <img src="./assets/icons/gallery-icon.svg" alt="أيقونة المعرض" class="nav-icon" aria-hidden="true" />
+          <span data-i18n="nav.mainDishes">الأطباق الرئيسية</span>
+        </a>
+      </nav>
+
+      <a href="#main" class="logo" aria-label="كهرمانة بغداد">
+        <img
+          src="./assets/brand/logo.webp"
+          alt="كهرمانة بغداد"
+          class="logo-img"
+          width="120"
+          height="44"
+          decoding="async"
+          loading="eager"
+        />
+      </a>
+
+      <nav class="nav nav-right" aria-label="Secondary">
+        <a href="#testimonials" data-i18n="nav.testimonials">التقييمات</a>
+        <a href="#locations" data-i18n="nav.locations">الفروع</a>
+        <a href="#contact" data-i18n="nav.contact">تواصل</a>
+        <button type="button" class="lang-toggle" id="langToggle" aria-label="Switch Language">EN</button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main id="main">
+    <!-- Hero Section -->
+    <section class="hero" role="banner">
+      <video
+        class="hero-video"
+        autoplay
+        loop
+        muted
+        playsinline
+        poster="./assets/hero/hero-poster.webp"
+        preload="none"
+        aria-hidden="true"
+      >
+        <source media="(min-width: 768px)" src="./assets/hero/hero.webm" type="video/webm" />
+        <source media="(min-width: 768px)" src="./assets/hero/hero.mp4" type="video/mp4" />
+        <track kind="captions" src="./assets/hero/hero-captions.vtt" srclang="ar" label="العربية" />
+      </video>
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <div class="hero-text">
+          <p class="hero-warn">
+            <strong data-i18n="hero.warning">تنبيه:</strong>
+            <span data-i18n="hero.subwarning">هذا ليس مجرد مطعم عادي.</span>
+          </p>
+          <h1 class="hero-title" data-i18n="hero.title">
+            كرم عراقي أصيل، يُقدَّم بدفء الضيافة البحرينية
+          </h1>
+          <div class="hero-ctas">
+            <a href="#menu" class="btn btn-primary">
+              <img src="./assets/icons/menu-icon.svg" alt="" class="nav-icon" aria-hidden="true" />
+              <span data-i18n="hero.ctaMenu">عرض المنيو</span>
+            </a>
+            <a href="#story" class="btn btn-secondary">
+              <span data-i18n="hero.ctaStory">قصتنا</span>
+            </a>
+          </div>
+        </div>
+        <button type="button" class="hero-scroll" aria-label="تصفح الأسفل">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M7 10l5 5 5-5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+          <span data-i18n="hero.scroll">تصفح</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Story Section -->
+    <section class="section story-section">
+      <div class="container">
+        <div class="anchor" id="story"></div>
+        <p class="section-kicker" data-i18n="story.kicker">🏛️ قصة المطعم</p>
+        <h2 class="section-title" data-i18n="story.title">
+          كهرمانة بغداد: حكاية كرم تُروى على المائدة
+        </h2>
+        <p class="section-subtitle" data-i18n="story.subtitle">
+          حين يلتقي إرث بغداد بدفء الضيافة البحرينية
+        </p>
+        <div class="story-grid">
+          <div class="story-media">
+            <img
+              src="./assets/story/story.webp"
+              alt="قصة المطعم"
+              width="600"
+              height="400"
+              decoding="async"
+              loading="lazy"
+            />
+          </div>
+          <div class="story-text">
+            <blockquote class="story-quote" data-i18n="story.quote">
+              "كهرمانة بغداد ليس مجرد مطعم — إنه جسر بين حضارتين، ورحلة لذيذة تمزج أصالة المطبخ العراقي بدفء الضيافة البحرينية."
+            </blockquote>
+            <p data-i18n="story.p1">
+              في قلب البحرين، نحكي قصة عراقية بدأت من شوارع بغداد الحيّة. كل طبق يحمل روح المطبخ العراقي الأصيل، من المسكوف المشوي على الجمر إلى القوزي اللذيذ الذي يذوب في الفم.
+            </p>
+            <p data-i18n="story.p2">
+              منذ افتتاحنا، التزمنا بتقديم نكهات عراقية حقيقية وأصيلة، مستخدمين وصفات عريقة تتوارثها الأجيال، مع لمسة من الابتكار تناسب ذوق عصرنا. هنا، في كهرمانة بغداد، نؤمن بأن الطعام ليس مجرد وجبة — بل تجربة، وذكرى، وحكاية تُروى على مائدة مشتركة.
+            </p>
+            <a href="#menu" class="btn btn-primary">
+              <img src="./assets/icons/menu-icon.svg" alt="" class="nav-icon" aria-hidden="true" />
+              <span data-i18n="story.cta">استكشف المنيو</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Owner Section -->
+    <section class="section owner-section">
+      <div class="container">
+        <div class="anchor" id="owner"></div>
+        <div class="owner-card card">
+          <div class="owner-media">
+            <img
+              src="./assets/people/owner.webp"
+              alt="صاحب المطعم"
+              class="owner-photo"
+              width="500"
+              height="500"
+              decoding="async"
+              loading="lazy"
+            />
+          </div>
+          <div class="owner-content">
+            <h2 class="owner-name" data-i18n="owner.name">عبدالله الجبوري</h2>
+            <p class="owner-role" data-i18n="owner.role">المؤسس وصاحب المطعم</p>
+            <p class="owner-text" data-i18n="owner.p1">
+              بدأت رحلتي مع الطبخ منذ الصغر في بغداد، حيث كنت أراقب أمي وجدتي وهما تحضران أشهى الأطباق التقليدية. تعلمت منهما سر التوابل، وفن الصبر، ومعنى الكرم الحقيقي.
+            </p>
+            <blockquote class="owner-quote" data-i18n="owner.quote">
+              "الطبخ عندي ليس مهنة فقط — إنه رسالة لإحياء تراث بغداد وتقديم أطعمة تُفرح القلوب وتجمع الأحباب."
+            </blockquote>
+            <p class="owner-text" data-i18n="owner.p2">
+              في كهرمانة بغداد، نحرص على جودة المكونات، ونحترم الوصفة الأصلية، ونضيف لمسة من الحب في كل طبق. هدفنا أن يكون زائرنا ضيفاً عزيزاً يعود دائماً.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="section menu-section">
+      <div class="container">
+        <div class="anchor" id="menu"></div>
+        <p class="section-kicker" data-i18n="menu.kicker">🍽️ القائمة</p>
+        <h2 class="section-title" data-i18n="menu.title">استكشف منيونا</h2>
+        <p class="section-subtitle" data-i18n="menu.subtitle">أطباق عراقية أصيلة بمكونات طازجة</p>
+        
+        <div class="menu-filters" role="group" aria-label="تصنيف الأطباق">
+          <button class="menu-filter active" data-filter="all" data-i18n="menu.filterAll">الكل</button>
+          <button class="menu-filter" data-filter="main_dishes" data-i18n="menu.filterMainDishes">الأطباق الرئيسية</button>
+          <button class="menu-filter" data-filter="grills" data-i18n="menu.filterGrills">المشويات</button>
+          <button class="menu-filter" data-filter="qass_and_shawarma" data-i18n="menu.filterQass">القص والشاورما</button>
+        </div>
+        
+        <div class="menu-grid" id="menuGrid" role="list" aria-label="قائمة الأطباق">
+          <!-- Menu items will be injected by JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="section gallery-section">
+      <div class="container">
+        <div class="anchor" id="gallery"></div>
+        <h2 class="section-title" data-i18n="gallery.title">الأطباق الرئيسية</h2>
+        <p class="section-subtitle" data-i18n="gallery.subtitle">تصفح تشكيلتنا من الأطباق الشهيرة</p>
+        <div class="gallery-grid" id="galleryGrid" role="list" aria-label="معرض الأطباق">
+          <!-- Gallery items will be injected by JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="section testimonials-section">
+      <div class="container">
+        <div class="anchor" id="testimonials"></div>
+        <p class="section-kicker" data-i18n="testimonials.kicker">⭐ التقييمات</p>
+        <h2 class="section-title" data-i18n="testimonials.title">
+          ماذا يقول عملاؤنا
+        </h2>
+        <div class="testimonials-grid">
+          <article class="testimonial card">
+            <h3 class="sr-only">تقييم من أحمد الكويتي</h3>
+            <div class="testimonial-stars" aria-label="تقييم 5 نجوم">⭐⭐⭐⭐⭐</div>
+            <p class="testimonial-text" data-i18n="testimonial1.text">
+              "المسكوف هنا هو الأفضل في البحرين! طعم أصيل وكأنك في بغداد. الخدمة ممتازة والأجواء رائعة."
+            </p>
+            <div class="testimonial-author">
+              <strong data-i18n="testimonial1.name">أحمد الكويتي</strong>
+              <span data-i18n="testimonial1.date">نوفمبر 2024</span>
+            </div>
+          </article>
+          
+          <article class="testimonial card">
+            <h3 class="sr-only">تقييم من فاطمة العلوي</h3>
+            <div class="testimonial-stars" aria-label="تقييم 5 نجوم">⭐⭐⭐⭐⭐</div>
+            <p class="testimonial-text" data-i18n="testimonial2.text">
+              "أطباق عراقية حقيقية بنكهة لا تُنسى. القوزي والكباب كانا رائعين. سأعود بالتأكيد!"
+            </p>
+            <div class="testimonial-author">
+              <strong data-i18n="testimonial2.name">فاطمة العلوي</strong>
+              <span data-i18n="testimonial2.date">ديسمبر 2024</span>
+            </div>
+          </article>
+          
+          <article class="testimonial card">
+            <h3 class="sr-only">تقييم من محمد البحراني</h3>
+            <div class="testimonial-stars" aria-label="تقييم 5 نجوم">⭐⭐⭐⭐⭐</div>
+            <p class="testimonial-text" data-i18n="testimonial3.text">
+              "تجربة رائعة! الطعام طازج ولذيذ، والأسعار معقولة. أنصح بتجربة المشاوي المشكلة."
+            </p>
+            <div class="testimonial-author">
+              <strong data-i18n="testimonial3.name">محمد البحراني</strong>
+              <span data-i18n="testimonial3.date">ديسمبر 2024</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Locations/Contact Section -->
+    <section class="section contact-section">
+      <div class="container">
+        <div class="anchor" id="locations"></div>
+        <div class="anchor" id="contact"></div>
+        
+        <p class="section-kicker" data-i18n="contact.kicker">📍 الفروع والتواصل</p>
+        <h2 class="section-title" data-i18n="contact.title">تعال وزرنا</h2>
+        <p class="contact-intro" data-i18n="contact.intro">
+          نخدمك في فرعين في البحرين. اختر الفرع الأقرب إليك!
+        </p>
+
+        <!-- Active Branch Header -->
+        <div class="active-branch-wrap">
+          <h3 class="active-branch-title">
+            <span data-i18n="contact.activeBranchLabel">الفرع الحالي</span>:
+            <span id="activeBranchTitleValue"></span>
+          </h3>
+          <div class="active-branch-info">
+            <a href="tel:17131413" class="active-chip" id="activeBranchPhone">
+              <span class="active-chip-label" data-i18n="contact.call">اتصل</span>:
+              <span class="active-chip-value" id="activeBranchPhoneValue"></span>
+            </a>
+            <a href="#" class="active-chip" id="activeBranchMap" target="_blank" rel="noopener noreferrer">
+              <span class="active-chip-label" data-i18n="contact.mapLabel">الموقع</span>:
+              <span class="active-chip-value" data-i18n="contact.mapBtn">عرض على الخريطة</span>
+            </a>
+            <a href="https://wa.me/97317131413" class="active-chip active-chip-whatsapp" id="activeBranchWhatsApp" target="_blank" rel="noopener noreferrer">
+              <span class="active-chip-label">
+                <img src="./assets/icons/order-icon.svg" alt="" class="nav-icon" aria-hidden="true" />
+                <span data-i18n="contact.whatsapp">واتساب</span>
+              </span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Dynamic Map Section -->
+        <div class="map-container">
+          <h3 class="map-title" data-i18n="map.title">موقعنا على الخريطة</h3>
+          <div class="map-wrapper" id="mapWrapper">
+            <iframe
+              id="branchMapEmbed"
+              class="branch-map-embed"
+              frameborder="0"
+              allowfullscreen
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              title="موقع الفرع على خريطة جوجل"
+            ></iframe>
+          </div>
+          <div class="map-actions">
+            <a href="#" class="btn btn-gold" id="mapDirectionsBtn" target="_blank" rel="noopener noreferrer">
+              <span data-i18n="map.getDirections">احصل على الاتجاهات</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Branch Cards -->
+        <div class="branch-grid">
+          <div class="branch-card card" data-branch="riffa">
+            <h3 class="branch-name" data-i18n="branch.riffa">فرع الرفاع (الحجيات)</h3>
+            <p class="branch-phone">
+              <strong data-i18n="contact.phoneLabel">الهاتف:</strong>
+              <a href="tel:17131413">17131413</a>
+            </p>
+            <button class="branch-select" data-branch="riffa" data-i18n="contact.selectBranch">اختر هذا الفرع</button>
+          </div>
+
+          <div class="branch-card card" data-branch="qalali">
+            <h3 class="branch-name" data-i18n="branch.qalali">فرع المحرق (قلالي)</h3>
+            <p class="branch-phone">
+              <strong data-i18n="contact.phoneLabel">الهاتف:</strong>
+              <a href="tel:17131213">17131213</a>
+            </p>
+            <button class="branch-select" data-branch="qalali" data-i18n="contact.selectBranch">اختر هذا الفرع</button>
+          </div>
+        </div>
+
+        <!-- Hours -->
+        <div class="contact-footer">
+          <div class="contact-chip">
+            <span class="chip-label" data-i18n="contact.hoursLabel">ساعات العمل:</span>
+            <span class="chip-value" data-i18n="contact.hours">11:00 ص – 11:00 م يومياً</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FABs -->
+  <a
+    href="https://wa.me/97317131413"
+    class="whatsapp-fab"
+    id="whatsappFab"
+    target="_blank"
+    rel="noopener noreferrer"
+    title="واتساب"
+    aria-label="اطلب عبر واتساب"
+  >
+    <img src="./assets/icons/order-icon.svg" alt="" class="wa-ico-new" aria-hidden="true" />
+    <span class="whatsapp-fab-text" data-i18n="contact.fab">واتساب</span>
+  </a>
+
+  <button type="button" class="cart-fab" id="cartFab" aria-label="قائمة الطلبات">
+    <img src="./assets/icons/order-icon.svg" alt="" class="wa-ico-new cart-fab-icon" aria-hidden="true" />
+    <span class="cart-fab-label" data-i18n="cart.fab">الطلب</span>
+    <span class="cart-count" id="cartCount" role="status" aria-live="polite" aria-atomic="true">0</span>
+  </button>
+
+  <button type="button" class="scroll-top" id="scrollTop" title="العودة للأعلى" aria-label="العودة للأعلى">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+      <path d="M17 14l-5-5-5 5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+    </svg>
+  </button>
+
+  <!-- Cart Modal -->
+  <div class="cart-modal" id="cartModal" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="cart-backdrop" data-cart-close></div>
+    <div class="cart-panel" role="document" aria-label="قائمة الطلبات">
+      <div class="cart-header">
+        <h3 class="cart-title" data-i18n="cart.title">طلبك</h3>
+        <button type="button" class="cart-close" data-cart-close aria-label="إغلاق">×</button>
+      </div>
+
+      <p class="cart-empty" id="cartEmpty" data-i18n="cart.empty">قائمة طلبك فارغة.</p>
+      <ul class="cart-items" id="cartItems" aria-label="عناصر الطلب"></ul>
+
+      <div class="cart-note">
+        <label for="cartNote" class="cart-note-label" data-i18n="cart.noteLabel">ملاحظات</label>
+        <textarea
+          id="cartNote"
+          class="cart-note-text"
+          placeholder="أضف ملاحظات (بدون بصل، إلخ)"
+          data-i18n-placeholder="cart.notePlaceholder"
+          rows="3"
+        ></textarea>
+      </div>
+
+      <div class="cart-customer">
+        <div class="cart-field">
+          <label for="customerName" class="cart-field-label" data-i18n="cart.nameLabel">الاسم</label>
+          <input
+            type="text"
+            id="customerName"
+            class="cart-field-input"
+            placeholder="اسمك"
+            data-i18n-placeholder="cart.namePlaceholder"
+            autocomplete="name"
+            required
+            minlength="2"
+            pattern="^[\u0600-\u06FFa-zA-Z\s]{2,50}$"
+          />
+          <span class="cart-field-error" data-error-for="customerName"></span>
+        </div>
+        <div class="cart-field">
+          <label for="customerAddress" class="cart-field-label" data-i18n="cart.addressLabel">الموقع/العنوان</label>
+          <textarea
+            id="customerAddress"
+            class="cart-field-textarea"
+            placeholder="المنطقة، الشارع، المبنى، الشقة..."
+            data-i18n-placeholder="cart.addressPlaceholder"
+            autocomplete="street-address"
+            required
+            minlength="10"
+            rows="3"
+          ></textarea>
+          <span class="cart-field-error" data-error-for="customerAddress"></span>
+        </div>
+      </div>
+
+      <div class="cart-summary" role="group" aria-label="إجمالي الطلب">
+        <span class="cart-summary-label" data-i18n="cart.total">الإجمالي</span>
+        <span class="cart-summary-value" id="cartTotal">BD 0.000</span>
+      </div>
+
+      <div class="cart-actions">
+        <button type="button" class="btn btn-ghost" id="cartClear" data-i18n="cart.clear">مسح</button>
+        <a
+          href="https://wa.me/97317131413"
+          class="btn btn-primary"
+          id="cartSendWA"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="./assets/icons/order-icon.svg" alt="" class="nav-icon cart-wa-icon" aria-hidden="true" />
+          <span data-i18n="cart.send">إرسال عبر واتساب</span>
+        </a>
+      </div>
+
+      <p class="cart-hint" data-i18n="cart.hint">
+        سيفتح واتساب مع رسالة جاهزة — يمكنك المراجعة والضغط على إرسال.
+      </p>
+    </div>
+  </div>
+
+  <!-- Toast Container -->
+  <div class="toast-container" id="toastContainer" aria-live="polite" aria-atomic="true"></div>
+
+  <!-- Footer -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="footer-inner">
+      <a
+        href="#"
+        class="footer-direction btn btn-gold"
+        id="footerDirection"
+        target="_blank"
+        rel="noopener noreferrer"
+        data-i18n="footer.direction"
+        aria-disabled="true"
+      >
+        الموقع الجغرافي
+      </a>
+      <p class="footer-rights" data-i18n="footer.rights">
+        جميع الحقوق محفوظة © كهرمانة بغداد
+      </p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="./script.js"></script>
+</body>
+</html>

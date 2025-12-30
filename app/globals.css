@@ -1,0 +1,65 @@
+/* Global styles for the premium restaurant app. Implements dark theme
+   colours, typography and responsive defaults. */
+
+:root {
+  /* Brand palette */
+  --color-background-main: #3a2a1f; /* warm dark brown */
+  --color-surface: #4b3527; /* slightly lighter surface for cards */
+  --color-gold-primary: #e0b366; /* primary gold accent */
+  --color-gold-subtle: #ffddad; /* subtitle gold */
+  --color-text-primary: #f8f4ef; /* body text */
+  --color-text-secondary: #dfd7cb; /* secondary text */
+  --color-text-muted: #bba890; /* muted text */
+
+  /*
+    Legacy aliases: Some components were originally coded using variables
+    like --color-antique-gold, --color-soft-copper and --color-dark-brown.
+    To avoid rewriting every component and to maintain consistency with
+    the revised palette, these aliases point back to the new palette.
+    Do not remove them unless you update all references accordingly.
+  */
+  --color-antique-gold: var(--color-gold-primary);
+  --color-soft-copper: var(--color-gold-subtle);
+  --color-dark-brown: var(--color-background-main);
+  /* Layout */
+  --max-content-width: 1200px;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-background-main);
+  color: var(--color-text-primary);
+  min-height: 100%;
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+}
+
+/* Hide scrollbars on WebKit */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Language-specific typography */
+html[lang='ar'] body {
+  font-family: 'Cairo', 'Tajawal', Arial, sans-serif;
+}
+html[lang='en'] body {
+  font-family: 'Montserrat', 'Helvetica Neue', Arial, sans-serif;
+}

@@ -1,0 +1,15 @@
+{
+  "frontend_technologies": [
+    "UNSPECIFIED"
+  ],
+  "pwa_status": "UNSPECIFIED",
+  "service_worker_behavior": [
+    "UNSPECIFIED"
+  ],
+  "offline_rules": [
+    "UNSPECIFIED"
+  ],
+  "storage_usage": [
+    "UNSPECIFIED"
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "mobile_first": true,
+  "experience_goal": "feels_like_native_app",
+
+  "navigation": {
+    "single_top_navigation_only": true,
+    "no_duplicate_navbars": true,
+    "mobile_menu_style": "glassmorphism",
+    "menu_behavior": "slide_or_fade_smooth",
+    "backdrop_blur": true,
+    "tap_feedback": {
+      "enabled": true,
+      "scale_on_press": 0.96,
+      "visual_ripple": true,
+      "haptic_like_timing": true
+    }
+  },
+
+  "touch_interaction": {
+    "minimum_touch_target_px": 44,
+    "no_hover_dependency": true,
+    "tap_delay_ms": 0,
+    "gestures": {
+      "swipe_to_delete_cart_item": true,
+      "pull_to_refresh": true,
+      "horizontal_swipe_for_categories": true
+    }
+  },
+
+  "forms_and_input": {
+    "numeric_keyboard_enforcement": true,
+    "otp_autocomplete": true,
+    "auto_focus_search": false,
+    "input_visual_feedback": "focus_ring_color_change"
+  },
+
+  "cart_behavior": {
+    "visual_indicator_required": true,
+    "badge_with_item_count": true,
+    "instant_feedback_on_add": true,
+    "no_page_reload": true
+  },
+
+  "social_interaction": {
+    "native_share_sheet_support": true,
+    "copy_link_fallback": true
+  },
+
+  "language_switching": {
+    "no_layout_break": true,
+    "no_page_flash": true,
+    "preserve_scroll_position": true
+  },
+
+  "performance_constraints": {
+    "max_animation_duration_ms": 400,
+    "avoid_layout_shift": true,
+    "no_blocking_scripts": true
+  },
+
+  "loading_states": {
+    "strategy": "skeleton_screens",
+    "no_spinners_for_content": true,
+    "blur_up_images": true
+  },
+
+  "offline_experience": {
+    "essential_pages_cached": true,
+    "menu_available_offline": true,
+    "clear_offline_state_indicator": true
+  },
+
+  "visual_quality": {
+    "spacing_consistency_required": true,
+    "no_empty_gaps_in_navigation": true,
+    "premium_feel_required": true
+  },
+
+  "error_prevention": {
+    "no_white_screen_allowed": true,
+    "fail_gracefully": true,
+    "clear_user_feedback_on_errors": true
+  }
+}

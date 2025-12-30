@@ -1,0 +1,49 @@
+{
+  "interactions": [
+    {
+      "name": "language_switching",
+      "trigger": "UNSPECIFIED",
+      "visual_response": "UNSPECIFIED",
+      "state_change": "UNSPECIFIED",
+      "must_never_change": [
+        "UNSPECIFIED"
+      ]
+    },
+    {
+      "name": "add_to_cart",
+      "trigger": "UNSPECIFIED",
+      "visual_response": "UNSPECIFIED",
+      "state_change": "UNSPECIFIED",
+      "must_never_change": [
+        "UNSPECIFIED"
+      ]
+    },
+    {
+      "name": "cart_badge_count_behavior",
+      "trigger": "UNSPECIFIED",
+      "visual_response": "UNSPECIFIED",
+      "state_change": "UNSPECIFIED",
+      "must_never_change": [
+        "UNSPECIFIED"
+      ]
+    },
+    {
+      "name": "navigation_clicks",
+      "trigger": "UNSPECIFIED",
+      "visual_response": "UNSPECIFIED",
+      "state_change": "UNSPECIFIED",
+      "must_never_change": [
+        "UNSPECIFIED"
+      ]
+    },
+    {
+      "name": "click_to_call",
+      "trigger": "UNSPECIFIED",
+      "visual_response": "UNSPECIFIED",
+      "state_change": "UNSPECIFIED",
+      "must_never_change": [
+        "UNSPECIFIED"
+      ]
+    }
+  ]
+}

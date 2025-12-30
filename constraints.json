@@ -1,0 +1,14 @@
+{
+  "elements_must_never_be_duplicated": [
+    "UNSPECIFIED"
+  ],
+  "content_must_never_be_removed": [
+    "UNSPECIFIED"
+  ],
+  "logic_must_never_be_altered": [
+    "UNSPECIFIED"
+  ],
+  "known_fragile_areas": [
+    "UNSPECIFIED"
+  ]
+}

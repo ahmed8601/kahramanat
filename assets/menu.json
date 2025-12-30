@@ -1,0 +1,1191 @@
+{
+  "currency": "BD",
+  "categories": [
+    {
+      "id": "main_dishes",
+      "ar": "الأطباق الرئيسية",
+      "en": "Main Dishes"
+    },
+    {
+      "id": "grills",
+      "ar": "المشويات",
+      "en": "Grills"
+    },
+    {
+      "id": "qass_and_shawarma",
+      "ar": "القص والشاورما",
+      "en": "Qass & Shawarma"
+    },
+    {
+      "id": "pastries_and_manakish",
+      "ar": "المعجنات والمناقيش",
+      "en": "Pastries & Manakish"
+    },
+    {
+      "id": "pizza",
+      "ar": "بيتزا",
+      "en": "Pizza"
+    },
+    {
+      "id": "appetizers",
+      "ar": "المقبلات",
+      "en": "Appetizers"
+    },
+    {
+      "id": "breakfast",
+      "ar": "وجبات الإفطار",
+      "en": "Breakfast"
+    },
+    {
+      "id": "fresh_juices",
+      "ar": "عصائر طازجة",
+      "en": "Fresh Juices"
+    },
+    {
+      "id": "cold_drinks",
+      "ar": "مشروبات باردة",
+      "en": "Cold Drinks"
+    },
+    {
+      "id": "hot_drinks",
+      "ar": "مشروبات ساخنة",
+      "en": "Hot Drinks"
+    }
+  ],
+  "dishes": [
+    {
+      "id": "masgouf",
+      "category": "main_dishes",
+      "image": "assets/gallery/masgouf.webp",
+      "price": null,
+      "priceLabel": {
+        "ar": "حسب الوزن",
+        "en": "By Weight"
+      },
+      "name": {
+        "ar": "مسكوف عراقي",
+        "en": "Iraqi Masgouf"
+      },
+      "desc": {
+        "ar": "سمك مشوي على الطريقة البغدادية الأصيلة.",
+        "en": "Authentic Baghdadi grilled fish."
+      },
+      "tags": {
+        "spicy": false,
+        "bestSeller": true
+      },
+      "rating": 4.9,
+      "popular": true
+    },
+    {
+      "id": "qozi",
+      "category": "main_dishes",
+      "image": "assets/gallery/qozi.webp",
+      "price": null,
+      "priceLabel": {
+        "ar": "حسب الطلب",
+        "en": "On Order"
+      },
+      "name": {
+        "ar": "قوزي عراقي",
+        "en": "Iraqi Qozi"
+      },
+      "desc": {
+        "ar": "لحم غنم مطهو ببطء يقدم مع الأرز والمرق.",
+        "en": "Slow-cooked lamb served with rice and broth."
+      },
+      "tags": {
+        "spicy": false,
+        "bestSeller": false
+      },
+      "rating": 4.8,
+      "popular": true
+    },
+    {
+      "id": "kahramana_grills",
+      "category": "grills",
+      "image": "assets/gallery/mixed_grills.webp",
+      "price": 4.8,
+      "name": {
+        "ar": "مشويات كهرمانة مشكلة",
+        "en": "Kahramana Mixed Grills"
+      },
+      "desc": {
+        "ar": "تشكيلة من (6 أسياخ) كباب، تكة، وشيش طاووق مع الخضروات المشوية.",
+        "en": "Selection of 6 skewers: Kabab, Tikka, and Shish Tawook."
+      },
+      "tags": {
+        "spicy": false,
+        "bestSeller": true
+      },
+      "rating": 4.9,
+      "popular": true
+    },
+    {
+      "id": "iraqi_kabab_meat",
+      "category": "grills",
+      "image": "assets/gallery/kabab.webp",
+      "price": 3.5,
+      "name": {
+        "ar": "كباب لحم عراقي",
+        "en": "Iraqi Meat Kabab"
+      },
+      "desc": {
+        "ar": "3 أسياخ لحم غنم مفروم مع اللية مشوي على الفحم، يقدم مع صمون عراقي.",
+        "en": "3 skewers of minced lamb grilled on charcoal, served with Iraqi bread."
+      },
+      "tags": {
+        "spicy": false,
+        "bestSeller": false
+      },
+      "rating": 4.7,
+      "popular": false
+    },
+    {
+      "id": "kabab_chicken",
+      "category": "grills",
+      "image": "assets/gallery/kabab_chicken.webp",
+      "price": 3.0,
+      "name": {
+        "ar": "كباب دجاج",
+        "en": "Chicken Kabab"
+      },
+      "desc": {
+        "ar": "3 أسياخ دجاج مفروم متبل بالوصفة الخاصة ومشوي على الفحم.",
+        "en": "3 skewers of seasoned minced chicken grilled on charcoal."
+      },
+      "tags": {
+        "spicy": false,
+        "bestSeller": false
+      },
+      "rating": 4.6,
+      "popular": false
+    },
+    {
+      "id": "lamb_tikka",
+      "category": "grills",
+      "image": "assets/gallery/tikka.webp",
+      "price": 4.0,
+      "name": {
+        "ar": "تكة لحم غنم",
+        "en": "Lamb Tikka"
+      },
+      "desc": {
+        "ar": "قطع لحم غنم طرية متبلة بخلطة كهرمانة ومشوية على الفحم.",
+        "en": "Tender lamb chunks marinated and grilled on charcoal."
+      },
+      "tags": {
+        "spicy": false,
+        "bestSeller": false
+      },
+      "rating": 4.7,
+      "popular": false
+    },
+    {
+      "id": "shish_tawook",
+      "category": "grills",
+      "image": "assets/gallery/shish_tawook.webp",
+      "price": 3.2,
+      "name": {
+        "ar": "شيش طاووق",
+        "en": "Shish Tawook"
+      },
+      "desc": {
+        "ar": "قطع صدور دجاج متبلة بالروب والثوم، تقدم مع صلصة الثوم.",
+        "en": "Marinated chicken breast chunks, served with garlic sauce."
+      },
+      "tags": {
+        "spicy": false,
+        "bestSeller": false
+      },
+      "rating": 4.6,
+      "popular": true
+    },
+    {
+      "id": "lamb_chops",
+      "category": "grills",
+      "image": "assets/gallery/chops.webp",
+      "price": 4.5,
+      "name": {
+        "ar": "ريش غنم (3 قطع)",
+        "en": "Lamb Chops (3 Pcs)"
+      },
+      "desc": {
+        "ar": "ريش غنم طازجة مشوية بتتبيلة عراقية مميزة.",
+        "en": "Fresh lamb chops grilled with special Iraqi seasoning."
+      },
+      "tags": {
+        "spicy": false,
+        "bestSeller": false
+      },
+      "rating": 4.8,
+      "popular": true
+    },
+    {
+      "id": "grilled_chicken",
+      "category": "grills",
+      "image": "assets/gallery/chicken_machine.webp",
+      "price": 3.8,
+      "name": {
+        "ar": "دجاجة شواية",
+        "en": "Grilled Machine Chicken"
+      },
+      "desc": {
+        "ar": "دجاجة كاملة متبلة، تقدم مع الأرز أو الخبز.",
+        "en": "Whole marinated chicken, served with rice or bread."
+      },
+      "tags": {
+        "spicy": false,
+        "bestSeller": false
+      },
+      "rating": 4.5,
+      "popular": false
+    },
+    {
+      "id": "arays",
+      "category": "grills",
+      "image": "assets/gallery/arays.webp",
+      "price": 2.8,
+      "name": {
+        "ar": "عرايس لحم",
+        "en": "Meat Arays"
+      },
+      "desc": {
+        "ar": "خبز محشو باللحم المفروم والبهارات ومشوي على الفحم.",
+        "en": "Bread stuffed with minced meat and spices, grilled."
+      },
+      "tags": {
+        "spicy": false,
+        "bestSeller": false
+      },
+      "rating": 4.4,
+      "popular": false
+    },
+    {
+      "id": "mixed_grills_kilo",
+      "category": "grills",
+      "image": "assets/gallery/grills_kilo.webp",
+      "price": 14.0,
+      "name": {
+        "ar": "مشاوي مشكلة (كيلو)",
+        "en": "Mixed Grills (1 KG)"
+      },
+      "desc": {
+        "ar": "كيلو منوع من الكباب والتكة والريش، يكفي لـ 3-4 أشخاص.",
+        "en": "1KG variety of Kabab, Tikka, and Chops (Serves 3-4)."
+      },
+      "tags": {
+        "spicy": false,
+        "bestSeller": false
+      },
+      "rating": 4.9,
+      "popular": true
+    },
+    {
+      "id": "qass_meat_sandwich",
+      "category": "qass_and_shawarma",
+      "image": "assets/gallery/qass_meat.webp",
+      "price": 1.0,
+      "name": {
+        "ar": "قص لحم عراقي (ساندويتش)",
+        "en": "Iraqi Meat Qass (Sandwich)"
+      },
+      "desc": {
+        "ar": "في صمون حجري مع البيواز والعمبة والطرشي.",
+        "en": "In Iraqi stone bread with amba and pickles."
+      },
+      "tags": {
+        "spicy": false,
+        "bestSeller": true
+      },
+      "rating": 4.8,
+      "popular": true
+    },
+    {
+      "id": "qass_chicken_sandwich",
+      "category": "qass_and_shawarma",
+      "image": "assets/gallery/qass_chicken.webp",
+      "price": 0.8,
+      "name": {
+        "ar": "قص دجاج عراقي (ساندويتش)",
+        "en": "Iraqi Chicken Qass (Sandwich)"
+      },
+      "desc": {
+        "ar": "في صمون حجري مع الثومية أو العمبة والبهارات العراقية.",
+        "en": "In Iraqi stone bread with garlic sauce or amba."
+      },
+      "tags": {
+        "spicy": false,
+        "bestSeller": false
+      },
+      "rating": 4.6,
+      "popular": false
+    },
+    {
+      "id": "shawarma_arabic_meat",
+      "category": "qass_and_shawarma",
+      "image": "assets/gallery/arabic_meat.webp",
+      "price": 3.0,
+      "name": {
+        "ar": "شاورما عربي (لحم)",
+        "en": "Arabic Shawarma (Meat)"
+      },
+      "desc": {
+        "ar": "ساندويتش مقطع يُقدم مع بطاطس، طحينة ومخلل.",
+        "en": "Sliced sandwich served with fries, tahini and pickles."
+      },
+      "tags": {
+        "spicy": false,
+        "bestSeller": false
+      },
+      "rating": 4.5,
+      "popular": false
+    },
+    {
+      "id": "shawarma_arabic_chicken",
+      "category": "qass_and_shawarma",
+      "image": "assets/gallery/arabic_chicken.webp",
+      "price": 2.5,
+      "name": {
+        "ar": "شاورما عربي (دجاج)",
+        "en": "Arabic Shawarma (Chicken)"
+      },
+      "desc": {
+        "ar": "ساندويتش مقطع يُقدم مع بطاطس، ثومية وطرشي عراقي.",
+        "en": "Sliced sandwich served with fries and garlic sauce."
+      },
+      "tags": {
+        "spicy": false,
+        "bestSeller": false
+      },
+      "rating": 4.4,
+      "popular": true
+    },
+    {
+      "id": "shawarma_sarookh_meat",
+      "category": "qass_and_shawarma",
+      "image": "assets/gallery/sarookh_meat.webp",
+      "price": 1.8,
+      "name": {
+        "ar": "صاروخ شاورما لحم",
+        "en": "Meat Shawarma Sarookh"
+      },
+      "desc": {
+        "ar": "ساندويتش شاورما لحم بحجم كبير (خبز صاج).",
+        "en": "Large meat shawarma sandwich (Saj bread)."
+      },
+      "tags": {
+        "spicy": false,
+        "bestSeller": false
+      },
+      "rating": 4.5,
+      "popular": false
+    },
+    {
+      "id": "shawarma_sarookh_chicken",
+      "category": "qass_and_shawarma",
+      "image": "assets/gallery/sarookh_chicken.webp",
+      "price": 1.5,
+      "name": {
+        "ar": "صاروخ شاورما دجاج",
+        "en": "Chicken Shawarma Sarookh"
+      },
+      "desc": {
+        "ar": "ساندويتش شاورما دجاج بحجم كبير (خبز صاج).",
+        "en": "Large chicken shawarma sandwich (Saj bread)."
+      },
+      "tags": {
+        "spicy": false,
+        "bestSeller": false
+      },
+      "rating": 4.4,
+      "popular": false
+    },
+    {
+      "id": "manakish_cheese",
+      "category": "pastries_and_manakish",
+      "image": "assets/gallery/Cheese.webp",
+      "price": 0.6,
+      "name": {
+        "ar": "مناقيش جبنة",
+        "en": "Cheese Manakish"
+      },
+      "desc": {
+        "ar": "خبز مفرود مع الجبنة البيضاء.",
+        "en": "Flatbread with white cheese."
+      },
+      "tags": {
+        "spicy": false,
+        "bestSeller": true
+      },
+      "rating": 4.5,
+      "popular": true
+    },
+    {
+      "id": "manakish_zaatar",
+      "category": "pastries_and_manakish",
+      "image": "assets/gallery/Zaatar.webp",
+      "price": 0.5,
+      "name": {
+        "ar": "مناقيش زعتر",
+        "en": "Zaatar Manakish"
+      },
+      "desc": {
+        "ar": "خبز مع الزعتر وزيت الزيتون.",
+        "en": "Flatbread with zaatar and olive oil."
+      },
+      "tags": {
+        "spicy": false,
+        "bestSeller": false
+      },
+      "rating": 4.4,
+      "popular": false
+    },
+    {
+      "id": "manakish_meat",
+      "category": "pastries_and_manakish",
+      "image": "assets/gallery/manakish.webp",
+      "price": 0.8,
+      "name": {
+        "ar": "مناقيش لحم",
+        "en": "Meat Manakish"
+      },
+      "desc": {
+        "ar": "خبز مفرود مع اللحم المفروم المتبل.",
+        "en": "Flatbread with seasoned minced meat."
+      },
+      "tags": {
+        "spicy": false,
+        "bestSeller": false
+      },
+      "rating": 4.6,
+      "popular": true
+    },
+    {
+      "id": "manakish_labneh",
+      "category": "pastries_and_manakish",
+      "image": "assets/gallery/placeholder.webp",
+      "price": 0.6,
+      "name": {
+        "ar": "مناقيش لبنة",
+        "en": "Labneh Manakish"
+      },
+      "desc": {
+        "ar": "خبز مع اللبنة وزيت الزيتون.",
+        "en": "Flatbread with labneh and olive oil."
+      },
+      "tags": {
+        "spicy": false,
+        "bestSeller": false
+      },
+      "rating": 4.3,
+      "popular": false
+    },
+    {
+      "id": "pizza_margherita",
+      "category": "pizza",
+      "image": "assets/gallery/Margherita.webp",
+      "price": null,
+      "priceLabel": {
+        "ar": "اختر الحجم",
+        "en": "Select Size"
+      },
+      "name": {
+        "ar": "بيتزا مارجريتا",
+        "en": "Margherita Pizza"
+      },
+      "desc": {
+        "ar": "صلصة طماطم، جبنة موزاريلا، وريحان.",
+        "en": "Tomato sauce, mozzarella cheese, and basil."
+      },
+      "tags": {
+        "spicy": false,
+        "bestSeller": true
+      },
+      "rating": 4.5,
+      "popular": true,
+      "optionSets": [
+        {
+          "name": {
+            "ar": "الحجم",
+            "en": "Size"
+          },
+          "required": true,
+          "options": [
+            {
+              "name": {
+                "ar": "صغير",
+                "en": "Small"
+              },
+              "price": 1.5
+            },
+            {
+              "name": {
+                "ar": "وسط",
+                "en": "Medium"
+              },
+              "price": 2.2
+            },
+            {
+              "name": {
+                "ar": "كبير",
+                "en": "Large"
+              },
+              "price": 2.8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pizza_meat",
+      "category": "pizza",
+      "image": "assets/gallery/Meat.webp",
+      "price": null,
+      "priceLabel": {
+        "ar": "اختر الحجم",
+        "en": "Select Size"
+      },
+      "name": {
+        "ar": "بيتزا لحم",
+        "en": "Meat Pizza"
+      },
+      "desc": {
+        "ar": "لحم مفروم، جبنة، فلفل حلو، وبصل.",
+        "en": "Minced meat, cheese, bell peppers, and onions."
+      },
+      "tags": {
+        "spicy": false,
+        "bestSeller": false
+      },
+      "rating": 4.6,
+      "popular": true,
+      "optionSets": [
+        {
+          "name": {
+            "ar": "الحجم",
+            "en": "Size"
+          },
+          "required": true,
+          "options": [
+            {
+              "name": {
+                "ar": "صغير",
+                "en": "Small"
+              },
+              "price": 2.0
+            },
+            {
+              "name": {
+                "ar": "وسط",
+                "en": "Medium"
+              },
+              "price": 3.0
+            },
+            {
+              "name": {
+                "ar": "كبير",
+                "en": "Large"
+              },
+              "price": 3.8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pizza_chicken",
+      "category": "pizza",
+      "image": "assets/gallery/Chicken.webp",
+      "price": null,
+      "priceLabel": {
+        "ar": "اختر الحجم",
+        "en": "Select Size"
+      },
+      "name": {
+        "ar": "بيتزا دجاج",
+        "en": "Chicken Pizza"
+      },
+      "desc": {
+        "ar": "دجاج، جبنة، مشروم، وزيتون.",
+        "en": "Chicken, cheese, mushrooms, and olives."
+      },
+      "tags": {
+        "spicy": false,
+        "bestSeller": false
+      },
+      "rating": 4.5,
+      "popular": false,
+      "optionSets": [
+        {
+          "name": {
+            "ar": "الحجم",
+            "en": "Size"
+          },
+          "required": true,
+          "options": [
+            {
+              "name": {
+                "ar": "صغير",
+                "en": "Small"
+              },
+              "price": 1.8
+            },
+            {
+              "name": {
+                "ar": "وسط",
+                "en": "Medium"
+              },
+              "price": 2.6
+            },
+            {
+              "name": {
+                "ar": "كبير",
+                "en": "Large"
+              },
+              "price": 3.4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pizza_mixed",
+      "category": "pizza",
+      "image": "assets/gallery/Mixed.webp",
+      "price": null,
+      "priceLabel": {
+        "ar": "اختر الحجم",
+        "en": "Select Size"
+      },
+      "name": {
+        "ar": "بيتزا مشكلة",
+        "en": "Mixed Pizza"
+      },
+      "desc": {
+        "ar": "لحم، دجاج، جبنة، خضروات متنوعة.",
+        "en": "Meat, chicken, cheese, and assorted vegetables."
+      },
+      "tags": {
+        "spicy": false,
+        "bestSeller": true
+      },
+      "rating": 4.7,
+      "popular": true,
+      "optionSets": [
+        {
+          "name": {
+            "ar": "الحجم",
+            "en": "Size"
+          },
+          "required": true,
+          "options": [
+            {
+              "name": {
+                "ar": "صغير",
+                "en": "Small"
+              },
+              "price": 2.2
+            },
+            {
+              "name": {
+                "ar": "وسط",
+                "en": "Medium"
+              },
+              "price": 3.2
+            },
+            {
+              "name": {
+                "ar": "كبير",
+                "en": "Large"
+              },
+              "price": 4.2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hummus",
+      "category": "appetizers",
+      "image": "assets/gallery/hummus.webp",
+      "price": 1.0,
+      "name": {
+        "ar": "حمص",
+        "en": "Hummus"
+      },
+      "desc": {
+        "ar": "حمص مهروس مع الطحينة وزيت الزيتون.",
+        "en": "Mashed chickpeas with tahini and olive oil."
+      },
+      "tags": {
+        "spicy": false,
+        "bestSeller": true
+      },
+      "rating": 4.6,
+      "popular": true
+    },
+    {
+      "id": "baba_ghanoush",
+      "category": "appetizers",
+      "image": "assets/gallery/baba.webp",
+      "price": 1.2,
+      "name": {
+        "ar": "بابا غنوج",
+        "en": "Baba Ghanoush"
+      },
+      "desc": {
+        "ar": "باذنجان مشوي مع الطحينة والثوم.",
+        "en": "Grilled eggplant with tahini and garlic."
+      },
+      "tags": {
+        "spicy": false,
+        "bestSeller": false
+      },
+      "rating": 4.5,
+      "popular": true
+    },
+    {
+      "id": "tabouleh",
+      "category": "appetizers",
+      "image": "assets/gallery/tabouleh.webp",
+      "price": 1.5,
+      "name": {
+        "ar": "تبولة",
+        "en": "Tabouleh"
+      },
+      "desc": {
+        "ar": "بقدونس، طماطم، برغل، وعصير ليمون.",
+        "en": "Parsley, tomatoes, bulgur, and lemon juice."
+      },
+      "tags": {
+        "spicy": false,
+        "bestSeller": false
+      },
+      "rating": 4.4,
+      "popular": false
+    },
+    {
+      "id": "fattoush",
+      "category": "appetizers",
+      "image": "assets/gallery/fattoush.webp",
+      "price": 1.5,
+      "name": {
+        "ar": "فتوش",
+        "en": "Fattoush"
+      },
+      "desc": {
+        "ar": "سلطة خضار مع خبز محمص ودبس الرمان.",
+        "en": "Vegetable salad with toasted bread and pomegranate molasses."
+      },
+      "tags": {
+        "spicy": false,
+        "bestSeller": false
+      },
+      "rating": 4.5,
+      "popular": true
+    },
+    {
+      "id": "fried_kibbeh",
+      "category": "appetizers",
+      "image": "assets/gallery/kibbeh.webp",
+      "price": 1.8,
+      "name": {
+        "ar": "كبة مقلية",
+        "en": "Fried Kibbeh"
+      },
+      "desc": {
+        "ar": "برغل ولحم مفروم محشو ومقلي.",
+        "en": "Bulgur and minced meat stuffed and fried."
+      },
+      "tags": {
+        "spicy": false,
+        "bestSeller": true
+      },
+      "rating": 4.7,
+      "popular": true
+    },
+    {
+      "id": "iraqi_salad",
+      "category": "appetizers",
+      "image": "assets/gallery/salad.webp",
+      "price": 1.0,
+      "name": {
+        "ar": "سلطة عراقية",
+        "en": "Iraqi Salad"
+      },
+      "desc": {
+        "ar": "طماطم، خيار، بصل، وليمون.",
+        "en": "Tomatoes, cucumber, onions, and lemon."
+      },
+      "tags": {
+        "spicy": false,
+        "bestSeller": false
+      },
+      "rating": 4.3,
+      "popular": false
+    },
+    {
+      "id": "iraqi_eggs_pastrami",
+      "category": "breakfast",
+      "image": "assets/gallery/eggs.webp",
+      "price": 1.5,
+      "name": {
+        "ar": "بيض عراقي بالبسطرمة",
+        "en": "Iraqi Eggs with Pastrami"
+      },
+      "desc": {
+        "ar": "بيض مقلي مع البسطرمة والطماطم.",
+        "en": "Fried eggs with pastrami and tomatoes."
+      },
+      "tags": {
+        "spicy": false,
+        "bestSeller": true
+      },
+      "rating": 4.6,
+      "popular": true
+    },
+    {
+      "id": "foul_medames",
+      "category": "breakfast",
+      "image": "assets/gallery/foul.webp",
+      "price": 1.0,
+      "name": {
+        "ar": "فول مدمس",
+        "en": "Foul Medames"
+      },
+      "desc": {
+        "ar": "فول مع الثوم والليمون وزيت الزيتون.",
+        "en": "Fava beans with garlic, lemon, and olive oil."
+      },
+      "tags": {
+        "spicy": false,
+        "bestSeller": false
+      },
+      "rating": 4.4,
+      "popular": false
+    },
+    {
+      "id": "halloumi_plate",
+      "category": "breakfast",
+      "image": "assets/gallery/halloumi.webp",
+      "price": 1.2,
+      "name": {
+        "ar": "طبق جبنة حلوم",
+        "en": "Halloumi Cheese Plate"
+      },
+      "desc": {
+        "ar": "جبنة حلوم مع طماطم وخيار وزيتون.",
+        "en": "Halloumi cheese with tomatoes, cucumber, and olives."
+      },
+      "tags": {
+        "spicy": false,
+        "bestSeller": false
+      },
+      "rating": 4.5,
+      "popular": true
+    },
+    {
+      "id": "bread_honey",
+      "category": "breakfast",
+      "image": "assets/gallery/bread.webp",
+      "price": 0.8,
+      "name": {
+        "ar": "خبز عراقي مع العسل",
+        "en": "Iraqi Bread with Honey"
+      },
+      "desc": {
+        "ar": "صمون طازج مع عسل وقيمر.",
+        "en": "Fresh Iraqi bread with honey and cream."
+      },
+      "tags": {
+        "spicy": false,
+        "bestSeller": false
+      },
+      "rating": 4.3,
+      "popular": false
+    },
+    {
+      "id": "orange_juice",
+      "category": "fresh_juices",
+      "image": "assets/gallery/Orange.webp",
+      "price": 0.8,
+      "name": {
+        "ar": "عصير برتقال",
+        "en": "Orange Juice"
+      },
+      "desc": {
+        "ar": "عصير برتقال طازج.",
+        "en": "Fresh orange juice."
+      },
+      "tags": {
+        "spicy": false,
+        "bestSeller": true
+      },
+      "rating": 4.6,
+      "popular": true
+    },
+    {
+      "id": "lemon_mint_juice",
+      "category": "fresh_juices",
+      "image": "assets/gallery/Lemon Mint.webp",
+      "price": 0.7,
+      "name": {
+        "ar": "عصير ليمون ونعناع",
+        "en": "Lemon Mint Juice"
+      },
+      "desc": {
+        "ar": "عصير ليمون طازج مع النعناع.",
+        "en": "Fresh lemon juice with mint."
+      },
+      "tags": {
+        "spicy": false,
+        "bestSeller": false
+      },
+      "rating": 4.5,
+      "popular": true
+    },
+    {
+      "id": "mixed_fruit_juice",
+      "category": "fresh_juices",
+      "image": "assets/gallery/Watermelon.webp",
+      "price": 1.0,
+      "name": {
+        "ar": "عصير فواكه مشكل",
+        "en": "Mixed Fruit Juice"
+      },
+      "desc": {
+        "ar": "مزيج من الفواكه الطازجة.",
+        "en": "Mix of fresh fruits."
+      },
+      "tags": {
+        "spicy": false,
+        "bestSeller": false
+      },
+      "rating": 4.7,
+      "popular": true
+    },
+    {
+      "id": "carrot_juice",
+      "category": "fresh_juices",
+      "image": "assets/gallery/Pomegranate.webp",
+      "price": 0.8,
+      "name": {
+        "ar": "عصير جزر",
+        "en": "Carrot Juice"
+      },
+      "desc": {
+        "ar": "عصير جزر طازج.",
+        "en": "Fresh carrot juice."
+      },
+      "tags": {
+        "spicy": false,
+        "bestSeller": false
+      },
+      "rating": 4.4,
+      "popular": false
+    },
+    {
+      "id": "soft_drinks",
+      "category": "cold_drinks",
+      "image": "assets/gallery/drinks.webp",
+      "price": 0.3,
+      "name": {
+        "ar": "مشروبات غازية",
+        "en": "Soft Drinks"
+      },
+      "desc": {
+        "ar": "كوكاكولا، سفن أب، فانتا.",
+        "en": "Coca-Cola, 7Up, Fanta."
+      },
+      "tags": {
+        "spicy": false,
+        "bestSeller": true
+      },
+      "rating": 4.5,
+      "popular": true
+    },
+    {
+      "id": "water",
+      "category": "cold_drinks",
+      "image": "assets/gallery/juice.webp",
+      "price": 0.2,
+      "name": {
+        "ar": "ماء",
+        "en": "Water"
+      },
+      "desc": {
+        "ar": "ماء معدني.",
+        "en": "Mineral water."
+      },
+      "tags": {
+        "spicy": false,
+        "bestSeller": false
+      },
+      "rating": 4.3,
+      "popular": false
+    },
+    {
+      "id": "ayran",
+      "category": "cold_drinks",
+      "image": "assets/gallery/Pineapple.webp",
+      "price": 0.5,
+      "name": {
+        "ar": "عيران",
+        "en": "Ayran"
+      },
+      "desc": {
+        "ar": "لبن مع ماء وملح.",
+        "en": "Yogurt drink with water and salt."
+      },
+      "tags": {
+        "spicy": false,
+        "bestSeller": false
+      },
+      "rating": 4.4,
+      "popular": true
+    },
+    {
+      "id": "jallab",
+      "category": "cold_drinks",
+      "image": "assets/gallery/Avocado.webp",
+      "price": 0.8,
+      "name": {
+        "ar": "جلاب",
+        "en": "Jallab"
+      },
+      "desc": {
+        "ar": "مشروب تمر وعرق السوس مع الصنوبر.",
+        "en": "Date and licorice drink with pine nuts."
+      },
+      "tags": {
+        "spicy": false,
+        "bestSeller": false
+      },
+      "rating": 4.6,
+      "popular": true
+    },
+    {
+      "id": "iraqi_tea",
+      "category": "hot_drinks",
+      "image": "assets/gallery/tea.webp",
+      "price": 0.3,
+      "name": {
+        "ar": "شاي عراقي",
+        "en": "Iraqi Tea"
+      },
+      "desc": {
+        "ar": "شاي عراقي مع الهيل.",
+        "en": "Iraqi tea with cardamom."
+      },
+      "tags": {
+        "spicy": false,
+        "bestSeller": true
+      },
+      "rating": 4.7,
+      "popular": true
+    },
+    {
+      "id": "arabic_coffee",
+      "category": "hot_drinks",
+      "image": "assets/gallery/coffee.webp",
+      "price": 0.5,
+      "name": {
+        "ar": "قهوة عربية",
+        "en": "Arabic Coffee"
+      },
+      "desc": {
+        "ar": "قهوة عربية مع الهيل.",
+        "en": "Arabic coffee with cardamom."
+      },
+      "tags": {
+        "spicy": false,
+        "bestSeller": false
+      },
+      "rating": 4.6,
+      "popular": true
+    },
+    {
+      "id": "turkish_coffee",
+      "category": "hot_drinks",
+      "image": "assets/gallery/biryani.webp",
+      "price": 0.6,
+      "name": {
+        "ar": "قهوة تركية",
+        "en": "Turkish Coffee"
+      },
+      "desc": {
+        "ar": "قهوة تركية محضرة على الطريقة التقليدية.",
+        "en": "Turkish coffee prepared traditionally."
+      },
+      "tags": {
+        "spicy": false,
+        "bestSeller": false
+      },
+      "rating": 4.5,
+      "popular": false
+    },
+    {
+      "id": "nescafe",
+      "category": "hot_drinks",
+      "image": "assets/gallery/pizza.webp",
+      "price": 0.5,
+      "name": {
+        "ar": "نسكافيه",
+        "en": "Nescafe"
+      },
+      "desc": {
+        "ar": "نسكافيه مع الحليب.",
+        "en": "Nescafe with milk."
+      },
+      "tags": {
+        "spicy": false,
+        "bestSeller": false
+      },
+      "rating": 4.3,
+      "popular": false
+    }
+  ],
+  "branches": [
+    {
+      "id": "riffa",
+      "name": {
+        "ar": "فرع الرفاع (الحجيات)",
+        "en": "Riffa Branch (Hajiyat)"
+      },
+      "phone": "17131413",
+      "whatsapp": "97317131413",
+      "map": "https://maps.app.goo.gl/ejSrGQjg5zHHMRVt8",
+      "mapFull": "https://www.google.com/maps/place/%D9%85%D8%B7%D8%B9%D9%85+%D9%83%D9%87%D8%B1%D9%85%D8%A7%D9%86%D8%A9+%D8%A8%D8%BA%D8%AF%D8%A7%D8%AF%E2%80%AD/@26.1358149,50.5748089,17z/data=!3m1!4b1!4m6!3m5!1s0x3e49ade2308e955b:0xdf55f7b304a4e8c9!8m2!3d26.1358149!4d50.5748089!16s%2Fg%2F11fj073bvg",
+      "embed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3576.0806665446756!2d50.5722340!3d26.1358149!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e49ade2308e955b%3A0xdf55f7b304a4e8c9!2z2YXYt9i52YUg2YPZh9ix2YXYp9mG2Kkg2KjYutiv2KfYrw!5e0!3m2!1sen!2sbh!4v1734783600000!5m2!1sen!2sbh",
+      "coordinates": {
+        "lat": 26.1358149,
+        "lng": 50.5748089
+      },
+      "hours": {
+        "open": "07:00",
+        "close": "01:00"
+      }
+    },
+    {
+      "id": "qalali",
+      "name": {
+        "ar": "فرع المحرق (قلالي)",
+        "en": "Qalali Branch (Muharraq)"
+      },
+      "phone": "17131213",
+      "whatsapp": "97317131213",
+      "map": "https://maps.app.goo.gl/w3yp778YeyzS8Fwr8",
+      "mapFull": "https://www.google.com/maps/place/Kahramant+Baghdad+restaurant/@26.2767468,50.6571751,17z/data=!3m1!4b1!4m6!3m5!1s0x3e49a7003470c54d:0xb9fec402d4532c00!8m2!3d26.2767468!4d50.6571751!16s%2Fg%2F11ln_6vxg4",
+      "embed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3572.3389944556847!2d50.6546002!3d26.2767468!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e49a7003470c54d%3A0xb9fec402d4532c00!2sKahramant%20Baghdad%20restaurant!5e0!3m2!1sen!2sbh!4v1734783700000!5m2!1sen!2sbh",
+      "coordinates": {
+        "lat": 26.2767468,
+        "lng": 50.6571751
+      },
+      "hours": {
+        "open": "11:00",
+        "close": "01:00"
+      }
+    }
+  ]
+}
